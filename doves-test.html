@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOVES KINDERGARTEN & PRIMARY SCHOOL | Serere</title>
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box; font-family:Arial, sans-serif;}
+    body {line-height:1.6; color:#333;}
+    .container {width:90%; max-width:1100px; margin:auto;}
+    header {background:#1a4d8f; color:#fff; padding:1rem 0; position:sticky; top:0; z-index:100;}
+    header .container {display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;}
+    .logo-area {display:flex; align-items:center; gap:1rem;}
+    .logo-img {width:60px; height:60px; border-radius:50%; background:#fff; object-fit:cover;}
+    .logo-text {font-size:1.3rem; font-weight:bold;}
+    .motto {font-size:0.8rem; font-style:italic; opacity:0.9;}
+    nav a {color:#fff; margin-left:1rem; text-decoration:none; font-size:0.9rem;}
+    .hero {background:linear-gradient(rgba(26,77,143,0.8), rgba(26,77,143,0.8)), #1a4d8f; color:#fff; text-align:center; padding:6rem 1rem;}
+    .hero h1 {font-size:2.2rem; margin-bottom:0.5rem;}
+    .hero .motto-hero {font-size:1.2rem; margin-bottom:1.5rem; font-style:italic;}
+    .btn {display:inline-block; background:#ffcc00; color:#1a4d8f; padding:0.8rem 1.5rem; margin-top:1rem; text-decoration:none; font-weight:bold; border-radius:5px;}
+    section {padding:4rem 0;}
+    h2 {text-align:center; color:#1a4d8f; margin-bottom:2rem; font-size:2rem;}
+    .grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:2rem;}
+    .card {border:1px solid #ddd; padding:1.5rem; border-radius:8px; text-align:center; background:#fff;}
+    .uniform {background:#f4f4f4;}
+    .director-img {width:250px; height:250px; border-radius:50%; object-fit:cover; border:5px solid #1a4d8f;}
+    .director-flex {display:flex; flex-wrap:wrap; align-items:center; gap:2rem; justify-content:center;}
+    footer {background:#1a4d8f; color:#fff; text-align:center; padding:2rem 0; margin-top:2rem;}
+    .whatsapp {background:#25D366; color:#fff !important;}
+    .map {width:100%; height:300px; border:0; border-radius:8px; margin-top:1rem;}
+    .staff-img {width:100%; height:250px; object-fit:cover; border-radius:8px; margin-bottom:0.5rem;}
+    .video-wrap {position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; margin-bottom:1rem;}
+    .video-wrap video {position:absolute; top:0; left:0; width:100%; height:100%;}
+    /* --- DOVES Sky Blue Theme --- */
+    .bg-sky {background: #e6f4fa;}
+    .bg-sky-dark {background: #87CEEB; color: #1a1a1a;}
+    .bg-sky-dark .card {background: rgba(255,255,255,0.85);}
+    /* --- End Sky Blue Theme --- */
+    /* --- Welcome Splash --- */
+    #splash {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #1a4d8f; color: #fff; display: flex; align-items: center; justify-content: center; flex-direction: column; z-index: 9999; animation: splashOut 0.5s ease 2s forwards;}
+    @keyframes splashOut {to { opacity: 0; visibility: hidden; }}
+    #splash img {width: 100px; animation: pulse 1.5s infinite;}
+    @keyframes pulse {0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); }}
+    /* --- End Splash --- */
+    /* Mobile fixes */
+    @media (max-width: 768px) {
+      header .container {flex-direction:column; gap:1rem;}
+      nav {text-align:center;}
+      nav a {margin:0 0.5rem; display:inline-block;}
+      .hero h1 {font-size:1.8rem;}
+      .director-img {width:200px; height:200px;}
+    }
+  </style>
+</head>
+<body>
+  <div id="splash">
+    <img src="https://i.imgur.com/Xfjki5Q.jpeg" alt="DOVES Logo">
+    <p style="margin-top:1rem; font-size:1.2rem;">DOVES KINDERGARTEN & PRIMARY</p>
+  </div>
+
+  <header>
+    <div class="container">
+      <div class="logo-area">
+        <img src="https://i.imgur.com/Xfjki5Q.jpeg" alt="DOVES Logo" class="logo-img">
+        <div>
+          <div class="logo-text">DOVES KINDERGARTEN & PRIMARY</div>
+          <div class="motto">The Sky Is The Limit</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#director">Director</a>
+        <a href="#theme">Theme 2026</a>
+        <a href="#programs">Programs</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#committees">Governance</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>DOVES KINDERGARTEN & PRIMARY SCHOOL</h1>
+      <p class="motto-hero">"The Sky Is The Limit"</p>
+      <p>Omagoro Village, Kyere Sub County, Serere District</p>
+      <a href="https://wa.me/256788941670" class="btn whatsapp">Chat on WhatsApp</a>
+      <p style="margin-top:1rem;">Email: <a href="mailto:doveskindergarten@gmail.com" style="color:#ffcc00;">doveskindergarten@gmail.com</a></p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About DOVES</h2>
+      <p style="text-align:center; max-width:700px; margin:0 auto 3rem;">At DOVES, we believe every African child deserves quality education. Our mixed-race community of teachers and pupils learn together through practical skills, academics, and play.</p>
+      <div style="background:#e8f5e8; border-left:4px solid #2e7d32; padding:1rem; margin:2rem auto; max-width:600px; text-align:center; border-radius:4px;">
+        <p style="margin:0; font-weight:600; color:#1a4d8f;">GOVERNMENT REGISTERED</p>
+        <p style="margin:0.5rem 0 0;"><strong>EMIS No - Nursery:</strong> 1A011110</p>
+        <p style="margin:0;"><strong>EMIS No - Primary:</strong> YYYY/YYYY</p>
+        <p style="margin:0.5rem 0 0; font-size:0.9rem;">Ministry of Education & Sports, Uganda</p>
+      </div>
+      
+      <div class="grid" style="margin-bottom:3rem;">
+        <div class="card" style="background:#1a4d8f; color:#fff;">
+          <h3>Our Vision</h3>
+          <p><em>"The Sky Is The Limit"</em><br><br>
+          To be the leading primary school in Serere District that raises confident, skilled, and God-fearing leaders who transform their communities through knowledge, character, and practical innovation.</p>
+        </div>
+        <div class="card" style="border:2px solid #1a4d8f;">
+          <h3>Our Mission</h3>
+          <p>Ensuring the social - economic attitude and promotion of life, sustainability, knowledgeable and beneficial citizenery focusing factors affecting communities by:</p>
+          <ul style="text-align:left; margin-top:1rem; padding-left:1.2rem;">
+            <li>Delivering education curriculum with excellence</li>
+            <li>Integrating agriculture, ICT, and life skills</li>
+            <li>Nurturing discipline, creativity, and patriotism</li>
+            <li>Maintaining a safe, caring school environment</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 style="text-align:center; color:#1a4d8f; margin-bottom:1.5rem;">Our Core Values</h3>
+      <div class="grid">
+        <div class="card"><h4>Excellence</h4><p>We strive for the highest standards in academics and character.</p></div>
+        <div class="card"><h4>Inclusivity</h4><p>Every African child is welcome, valued, and supported.</p></div>
+        <div class="card"><h4>Practical Skills</h4><p>We teach children to work with both head and hands.</p></div>
+        <div class="card"><h4>Integrity</h4><p>We raise honest, responsible future leaders.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="director" class="uniform">
+    <div class="container">
+      <h2>Message from the Director</h2>
+      <div class="director-flex">
+        <img src="https://i.imgur.com/YgXTsMF.jpeg" alt="Mr. Ariu Martin - Director" class="director-img">
+        <div style="max-width:500px;">
+          <h3 style="color:#1a4d8f; margin-bottom:1rem;">Mr. Ariu Martin</h3>
+          <p style="font-style:italic; margin-bottom:1rem;">
+            "At DOVES, The Sky Is The Limit for every African child. We combine strong academics with practical skills like agriculture to raise leaders who can feed their families and their nation. Our gates are open to all children in Serere."
+          </p>
+          <p>Welcome to our school family. We are committed to nurturing your child's mind, character, and future.</p>
+          <p style="margin-top:1rem; font-weight:bold;">— Director, DOVES KINDERGARTEN & PRIMARY SCHOOL</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="theme" style="background:#1a4d8f; color:#fff;">
+    <div class="container" style="text-align:center;">
+      <h2 style="color:#ffc107;">Theme of the Year 2026</h2>
+      <div class="card" style="background:rgba(255,255,255,0.1); border:1px solid #ffc107; max-width:700px; margin:0 auto;">
+        <p style="font-size:1.3rem; font-style:italic; margin-bottom:1rem; line-height:1.6;">
+          "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint."
+        </p>
+        <p style="color:#ffc107; font-weight:bold; font-size:1.1rem; margin-bottom:1.5rem;">Isaiah 40:31</p>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Rising With Excellence</h3>
+        <p style="opacity:0.9;">At DOVES, 2026 is our year to soar above challenges. Through faith, hard work, and discipline, every pupil will rise to their God-given potential in academics, character, and service.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="programs">
+    <div class="container">
+      <h2>Our Programs</h2>
+      <div class="grid">
+        <div class="card"><h3>Kindergarten</h3><p>Ages 3-6. Play-based learning, phonics, numbers.</p></div>
+        <div class="card"><h3>Primary P1-P7</h3><p>UNEB curriculum + practical agriculture & ICT.</p></div>
+        <div class="card"><h3>Clubs</h3><p>Debate, Football, Agriculture, Music, Environment, Dance.</p></div>
+      </div>
+      <div class="card" style="margin-top:2rem; border-left:5px solid #1a4d8f;">
+        <h3>School Uniform</h3>
+        <p><strong>Shirt:</strong> Blue checkered | <strong>Shorts:</strong> Plain navy blue</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="uniform">
+    <div class="container">
+      <h2>Gallery: Life at DOVES</h2>
+      
+      <h3 style="color:#1a4d8f; margin:2rem 0 1rem;">Our Videos</h3>
+      <div class="grid">
+        <div class="card">
+          <div class="video-wrap">
+            <video controls preload="metadata">
+              <source src="https://i.imgur.com/vVCLUuo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p><strong>Graduation Day 2025</strong><br>DOVES pupils in gowns celebrating with parents</p>
+        </div>
+      </div>
+
+      <h3 style="color:#1a4d8f; margin:3rem 0 1rem;">Meet Our Staff</h3>
+      <p style="text-align:center; margin-bottom:1rem;">Dedicated teachers building the future of Serere and Uganda</p>
+      <div class="grid">
+        <div class="card">
+          <img src="https://i.imgur.com/Q6sU8Bq.jpeg" class="staff-img" alt="Tr. Ariu M">
+          <p><strong>Tr. Ariu M</strong><br>Director of Studies - Primary</p>
+        </div>
+        <div class="card">
+          <img src="https://i.imgur.com/oKkIqym.jpeg" class="staff-img" alt="Tr. Among D">
+          <p><strong>Tr. Among D</strong><br>Deputy Head Teacher - Nursery</p>
+        </div>
+        <div class="card">
+          <img src="https://i.imgur.com/TH2S5zh.jpeg" class="staff-img" alt="ADOYO M">
+          <p><strong>ADOYO M</strong><br>Cook</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="committees">
+    <div class="container">
+      <h2>School Governance</h2>
+      <p style="text-align:center; max-width:700px; margin:0 auto 2rem;">DOVES is guided by active Parent-Teachers Association and School Management Committee members committed to excellence.</p>
+      <div class="grid">
+        <div class="card" style="text-align:left;">
+          <h3 style="color:#1a4d8f; margin-bottom:1rem;">PTA Executive Committee</h3>
+          <table style="width:100%; border-collapse:collapse;">
+            <tr style="background:#1a4d8f; color:#fff;">
+              <th style="padding:0.5rem; border:1px solid #ddd; text-align:left;">Position</th>
+              <th style="padding:0.5rem; border:1px solid #ddd; text-align:left;">Name</th>
+            </tr>
+            <tr><td style="padding:0.5rem; border:1px solid #ddd;">Chairperson</td><td style="padding:0.5rem; border:1px solid #ddd;">Mr. [Oule Erinayo]</td></tr>
+            <tr style="background:#f4f4f4;"><td style="padding:0.5rem; border:1px solid #ddd;">Vice Chairperson</td><td style="padding:0.5rem; border:1px solid #ddd;">Mrs. [Opolot Simon Peter]</td></tr>
+            <tr><td style="padding:0.5rem; border:1px solid #ddd;">Secretary</td><td style="padding:0.5rem; border:1px solid #ddd;">Mr. [Ajilong Jesca]</td></tr>
+            <tr style="background:#f4f4f4;"><td style="padding:0.5rem; border:1px solid #ddd;">Treasurer</td><td style="padding:0.5rem; border:1px solid #ddd;">Mrs. [Akol Mary]</td></tr>
+          </table>
+        </div>
+        <div class="card" style="text-align:left;">
+          <h3 style="color:#1a4d8f; margin-bottom:1rem;">SMC - School Management Committee</h3>
+          <table style="width:100%; border-collapse:collapse;">
+            <tr style="background:#1a4d8f; color:#fff;">
+              <th style="padding:0.5rem; border:1px solid #ddd; text-align:left;">Position</th>
+              <th style="padding:0.5rem; border:1px solid #ddd; text-align:left;">Name</th>
+            </tr>
+            <tr><td style="padding:0.5rem; border:1px solid #ddd;">Chairperson</td><td style="padding:0.5rem; border:1px solid #ddd;">Mr. [Ebunyu Wilson]</td></tr>
+            <tr style="background:#f4f4f4;"><td style="padding:0.5rem; border:1px solid #ddd;">Vice Chairperson</td><td style="padding:0.5rem; border:1px solid #ddd;">Miss [Aburo Deborah]</td></tr>
+            <tr><td style="padding:0.5rem; border:1px solid #ddd;">Secretary - Head Teacher</td><td style="padding:0.5rem; border:1px solid #ddd;">Tr. [Ajilong Jesca]</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Admissions & Contact</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Visit Us</h3>
+          <p>Omagoro Village, Omagoro Parish</p>
+          <p>Kyere Sub County, Serere District</p>
+          <p>Mon-Fri: 7:30am - 5:00pm</p>
+        </div>
+        <div class="card">
+          <h3>Call/WhatsApp</h3>
+          <p>Director Ariu Martin</p>
+          <p><strong>0788 941 670</strong></p>
+          <a href="https://wa.me/256788941670" class="btn whatsapp">Chat Now</a>
+        </div>
+        <div class="card" style="text-align:left;">
+          <h3>School Fees Structure 2026</h3>
+          <h4 style="color:#1a4d8f; margin:1rem 0 0.5rem;">Nursery Section - Per Term</h4>
+          <table style="width:100%; border-collapse:collapse; margin-bottom:1.5rem;">
+            <tr style="background:#1a4d8f; color:#fff;"><th style="padding:0.5rem; border:1px solid #ddd; text-align:left;">Class</th><th style="padding:0.5rem; border:1px solid #ddd; text-align:left;">Fees (UGX)</th></tr>
+            <tr><td style="padding:0.5rem; border:1px solid #ddd;">Baby Class</td><td style="padding:0.5rem; border:1px solid #ddd;">250,000</td></tr>
+            <tr style="background:#f4f4f4;"><td style="padding:0.5rem; border:1px solid #ddd;">Middle Class</td><td style="padding:0.5rem; border:1px solid #ddd;">250,000</td></tr>
+            <tr><td style="padding:0.5rem; border:1px solid #ddd;">Top Class</td><td style="padding:0.5rem; border:1px solid #ddd;">280,000</td></tr>
+          </table>
+        </div>
+      <iframe class="map" src="https://www.google.com/maps?q=Kyere,+Serere+District,+Uganda&output=embed"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p style="margin-bottom:0.5rem; font-weight:600;">EMIS Reg: Nursery 1A011110 | Primary YYYY/YYYY</p>
+      <p>&copy; 2026 DOVES Kindergarten & Primary School, Serere</p>
+      <p style="margin-top:0.5rem;">"The Sky Is The Limit"</p>
+    </div>
+  </footer>
+</body>
+</html>
