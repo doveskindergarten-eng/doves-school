@@ -49,14 +49,33 @@
       nav {text-align:center;}
       nav a {margin:0 0.5rem; display:inline-block;}
       .hero h1 {font-size:1.8rem;}
-      .director-img {width:200px; height:200px;}<style>
-.gallery img, .gallery video {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  object-position: center top;
+      
+
+.director-img,
+.staff-img,
+.team-img,
+.teacher-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #1a4d8f;
+  object-fit: cover;
+  object-position: 50% 15%;
 }
-    }
+
+img {
+  object-fit: cover;
+  object-position: top center;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border-radius: 8px;
+}
+
     </style>
   
 </head>
